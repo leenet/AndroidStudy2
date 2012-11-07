@@ -20,7 +20,7 @@ public class AlertDialog3Activity extends Activity {
 			final CharSequence[] items ={ "Red", "Green", "Blue" };
 
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			builder.setTitle("색상을 선택하시오");
+			builder.setTitle("색상 선택");
 			builder.setItems(items, new 
 				DialogInterface.OnClickListener(){ 
 			  public void onClick(DialogInterface dialog, int item) {
